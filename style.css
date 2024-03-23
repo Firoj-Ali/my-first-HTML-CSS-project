@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ html, body{
+height: 100%;
+width: 100%;
+font-family: 'Cinzel', serif;
+ }
+
+ #main {
+    width: 100%;
+    height: 100%;
+ }
+ 
+ #nav {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vh;
+    border-bottom: 1px solid #dadada;
+    /* background-color: red; */
+}
+#nav h1 {
+font-size: 1.8vw;
+
+}
+
+#nav #matter {
+    display: flex;
+    gap: 5vw;
+   font-weight: 600;
+   align-items: center;
+
+/* background-color: lightblue; */
+ }
+ #nav #matter a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1vw;
+ }
+ #nav #matter i{
+    display: none;
+ }
+
+#item{
+height: calc(100% - 100px);
+width: 100%;
+display: flex;
+position: relative;
+
+}
+.right {
+    width: 50vw;
+    /* background-color: lightblue; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.right h1 {
+    width: 45vw;
+    font-size:3.5vw ;
+    margin-top: 10vh;
+    padding: 0 6vw;
+    line-height: 7vh;
+}
+.right p {
+    width: 40vw;
+    font-size:1vw;
+margin: 5vh 0;
+    padding: 0 4vw;
+    font-weight: 600;
+    color: #918f8f;
+    
+}
+.right span {
+    color: #52a5d7;
+    font-weight: 900;
+}
+.right button {
+    padding: 1.5vh 3vw;
+    border: none;
+    background-color:#f69422;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.left {
+    width: 50vw;
+
+}
+.left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+ @media (max-width:500px) {
+
+    #nav{
+        /* background-color: seagreen; */
+        height: 8vh;
+        padding: 8vw;
+    }
+    #nav h1 {
+        font-size: 4vw;
+    }
+    #nav #matter a{
+        display: none;
+    }
+    #nav #matter i {
+        display: block;
+        font-weight: 600;
+        font-size: 3.5vw;
+    }
+    #item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right {
+        height: 50vh;
+
+    }
+    .right h1 {
+        margin-top: 4vh;
+        font-size: 8vw;
+        line-height: 4vh;
+        
+    }
+    .right p {
+        font-size: 2vw;
+        margin: 2vh 0;
+    }
+    .left {
+height: 50vh;
+width: 100%;
+    }
+ }
