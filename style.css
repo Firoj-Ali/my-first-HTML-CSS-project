@@ -21,7 +21,7 @@ font-family: 'Cinzel', serif;
     align-items: center;
     padding: 0 10vh;
     border-bottom: 1px solid #dadada;
-    /* background-color: red; */
+    
 }
 #nav h1 {
 font-size: 1.8vw;
@@ -34,7 +34,7 @@ font-size: 1.8vw;
    font-weight: 600;
    align-items: center;
 
-/* background-color: lightblue; */
+
  }
  #nav #matter a {
     color: #000;
@@ -54,7 +54,6 @@ position: relative;
 }
 .all-text {
     width: 50vw;
-    /* background-color: lightblue; */
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -101,7 +100,6 @@ margin: 5vh 0;
  @media (max-width:500px) {
 
     #nav{
-        /* background-color: seagreen; */
         height: 8vh;
         padding: 8vw;
     }
